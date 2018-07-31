@@ -97,14 +97,13 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 
 Enter enter into "object_detection" folder and again run the given commands
 
-```
+``````
 protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
-```
+``````
 
 If you successfully install and configure all the system start the application with using terminal
 
-```
-python3 main_ui.py
+```python3 main_ui.py
 ```
 
